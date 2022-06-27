@@ -1,0 +1,11 @@
+
+    .navbar.navbar-default.navbar-fixed {position: fixed;right: 0;left: 0;top: 0;z-index: 8;min-height: 70px;background: #303030;
+      background-size: auto;background-size: cover;}
+    .navbar {border: 0;font-size: 16px;border-radius: 0;}
+    .site-logo {display: inline-block;left: 0;margin: 0;position: absolute;background: #d5af9c;width: 110px;height: 70px;max-width: 110px;
+      max-height: 70px;padding: 20px 5px;}
+    /*a {color: #424242;text-decoration: none;background-color: transparent}*/
+    .img-responsive, .thumbnail a > img, .thumbnail > img {display: block;max-width: 100%;height: auto;}
+    /*.logout-text {top: 0px; position: relative;color: rgba(255, 255, 255, .8);font-size: 12px;right: 6px;transition: .5s all;
+    display: inline-block;float: right;padding: 11px 0px;}*/
+    
