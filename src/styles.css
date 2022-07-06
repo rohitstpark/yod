@@ -1,6 +1,10 @@
-*{font-family: 'Josefin Sans', sans-serif;font-weight: 300;box-sizing: border-box;font-size: 14px;
-    line-height: 1.42857143;
+@font-face{
+	font-family:SEGOEUI ;
+	src: url(/assets/font/SEGOEUI.TTF);
+}
+*{font-family:SEGOEUI,sans-serif ;font-weight: 300;box-sizing: border-box;font-size: 13px;
+    line-height:23px;
 }
 body .login-header{
-	background-image:url('/assets/image/rose-bg.jpg');
+	background-image:url('assets/image/rose-bg.jpg');
 }
