@@ -1,8 +1,4 @@
-@font-face{
-	font-family:SEGOEUI ;
-	src: url(/assets/font/SEGOEUI.TTF);
-}
-*{font-family:SEGOEUI,sans-serif ;font-weight: 300;box-sizing: border-box;font-size: 13px;
+*{font-family: 'Josefin Sans', sans-serif;font-weight: 300;box-sizing: border-box;font-size: 14px;
     line-height:23px;
 }
 body .login-header{
