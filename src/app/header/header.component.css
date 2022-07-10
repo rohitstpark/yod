@@ -1,4 +1,4 @@
-/*header*/
+/*desktop*/
 .header_part{font-family:SegoeUI, sans-serif;font-weight: 300;box-sizing: border-box;font-size: 14px;
 line-height: 23px;}
 .navbar.navbar-default.navbar_fixed {position: fixed;right: 0;left: 0;z-index:8;height:70px;background: #303030;background-size: auto;background-size:cover;}
@@ -14,31 +14,23 @@ margin-right: 10px;}
 .log-out {float: right;}
 button.openbtn {display: none;}
 button {font-family: inherit;font-size: inherit;line-height: inherit;}
-button{
-  -webkit-appearance: button;
-  cursor: pointer;
-  text-transform: none;
-  overflow: visible;
-  margin: 0;
-font: inherit;
-color: inherit;
-}
-  @media screen and (max-width: 991px){
-    .openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color:transparent;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  margin: 10px;
-}
-button.openbtn {
-  display: inline-block;
-  position: absolute;
-  left: 110px;
-}
-  }
+button{-webkit-appearance: button;cursor: pointer;text-transform: none;overflow: visible;margin: 0;font: inherit;
+  color: inherit;}
 
 
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+.openbtn {font-size: 20px;cursor: pointer;background-color:transparent;color: white;padding: 10px 15px;border: none;
+  margin: 10px;}
+button.openbtn {display: inline-block;position: absolute;left: 110px;}
+}
 
+/*moblie*/
+@media screen and (min-width:300px) and (max-width:767px){
+.openbtn {font-size: 20px;cursor: pointer;background-color:transparent;color: white;padding: 10px 15px;border: none;}
+button.openbtn {display: inline-block;position: absolute;left:70px;}
+.header_site_logo {width: 70px;padding: 26px 2px 0 2px;}
+.img-responsive{display: block; max-width: 100%;height: auto;}
+}
+
+  
