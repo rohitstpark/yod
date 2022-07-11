@@ -9,4 +9,18 @@ body .login-header{
 line-height: 23px;
 }
 
+/*desktop*/
+@media only screen and (min-width:  1024px){
+    .header_part{display: block;}
+    .sidebar{display: block;}
+    .moblie{display: none;}
+    .mainMenu{display: none;}
+}
 
+/*tablet and moblie*/
+@media only screen and (max-width:  1023px){
+    .header_part{display: none;}
+    .sidebar{display: none !important;}
+    .moblie{display:block;}
+   
+}

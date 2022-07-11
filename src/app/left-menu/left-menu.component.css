@@ -20,8 +20,8 @@
 img {vertical-align: middle;}
 .sidebar .nav p {margin: 0;line-height: 22px;font-size: 12px; position: relative; bottom: 0;}
 
-/*tablet*/
-@media only screen and (min-width: 768px) and (max-width:  1024px) {
+/*/*tablet*/
+/*@media only screen and (min-width: 768px) and (max-width:  1024px) {
 .sidebar {width:70px;z-index: 1;top:0;overflow-x:hidden;transition: 0.5s;padding-top: 60px;}  
 .sidebar .sidebar-wrapper {height:auto;padding-top:30px;}
 .sidebar-wrapper a.closebtn {position:absolute;top:0;right: 48px;font-size: 50px;margin-left: 50px;color: rgba(255, 255, 255, 0.6);}
@@ -35,14 +35,16 @@ img {vertical-align: middle;}
 .sidebar-wrapper a.closebtn:focus{color: #fff;text-decoration:none;}
 .sidebar .nav li.active a {opacity: 1;}
 .sidebar .nav li a:hover {color: rgba(255, 255, 255, 1);}
+.sidebar .nav li a:focus p {color: rgba(255, 255, 255, 1);}
 .sidebar .nav li a:hover .nav-icons {opacity: 1;}
+.sidebar .nav li a:focus .nav-icons {opacity: 1;}
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: #fff;
 }
-} 
+} */
 
 /*moblie*/
-@media only screen and (min-width:300px) and (max-width: 767px) {
+/*@media only screen and (min-width:300px) and (max-width: 767px) {
 .sidebar {width:70px;z-index: 1;top:0;overflow-x:hidden;transition: 0.5s;padding-top: 60px;}  
 .sidebar .sidebar-wrapper {height:auto;padding-top:30px;}
 .sidebar-wrapper a.closebtn {position:absolute;top:0;right: 48px;font-size: 50px;margin-left: 50px;color: rgba(255, 255, 255, 0.6);}
@@ -60,4 +62,6 @@ img {vertical-align: middle;}
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: #fff;
 }
-} 
+} */
+
+
