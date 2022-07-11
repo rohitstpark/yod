@@ -23,7 +23,14 @@ color: inherit;}
  .menu_btn{float: right;} 
 .openbtn {font-size: 30px;cursor: pointer;background-color:transparent;color:#fff;padding:15px;border:none;margin-top:5px;}
 button.openbtn {display: inline-block;}
-
+.mobile {
+  background-color: #303030;
+  
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.header_con{border: 1px solid #fff;}
 
 .mainMenu{background: #303030;}
 .mainMenu .nav { margin-top:-5px;height:100vh;width: 100%;}
@@ -54,7 +61,7 @@ button.openbtn {display: inline-block;}
 
 .mainMenu{background: #303030;}
 .mainMenu .nav { margin-top:-5px;height:100vh;width: 100%;}
-.mainMenu li {height:7%;}
+.mainMenu li {height:9%;}
 .nav > li {position: relative;display: block;width:100%;text-align: center;}
 .mainMenu .nav li.active a {color: #fbfbfb;opacity: 1;}
 .mainMenu .nav li a:hover {color: rgba(255, 255, 255, 1);}
