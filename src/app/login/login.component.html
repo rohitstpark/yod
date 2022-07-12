@@ -1,28 +1,47 @@
 <div class="form_signin_con">
-  <div class="container-fluid ">
+  <!-- <div class="container-fluid "> -->
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="form_signin_co">
             <form class="form-signin" action="">
               <img src="/assets/image/logo-350x150.png" class="form_signin_img">
-              <p class="form_signin_txt">Enter your username and password to log on:</p>
-              <input name="email" type="text" id="inputEmail" class="form-control form_signin_input" placeholder="someone@example.com" required="" autofocus="">
-              <input name="password" type="password" id="inputPassword" class="form-control form_signin_input" placeholder="Password" required=""autofocus="">
-              <div class="form_signin_for mt-2 mb-2">
-                <label>
+              <div class="login_con">
+                <!-- <i class="fas fa-thumbs-up"></i> -->
+                <p class="form_signin_txt">Enter your username and password to log on:</p>
+                <div class="error_box error_txt" style="display: none;">
+                  <b>Error!</b> <span> Incorrect username or password!</span>
+                </div>
+                <input name="email" type="text" id="inputEmail" class="form-control custom_input" placeholder="someone@example.com" required="" autofocus="">
+                <input name="password" type="password" id="inputPassword" class="form-control custom_input" placeholder="Password" required=""autofocus="">
+                <div class="remember_pass">
                   <input type="checkbox" name="remember" value="">
-                   Remember Me
-                </label>
+                  <span>Remember Me</span>
+                </div>
+                <div class="form_action">
+                  <button name="submit" class="btn btn-lg  btn-block btn-signin" type="submit">SIGN IN</button>
+                </div>
+                <a href="forgot_password.php" class="login_forgot_txt">Forgot password?</a>
               </div>
-              <button name="submit" class="btn btn-lg  btn-block btn-signin " type="submit">SIGN IN</button>
-              <a href="forgot_password.php" class="forgot-password form_signin_for ">
-                 Forgot password?
-              </a>
+
+              <div class="forgot_pass_con" style="display: none;">
+                <p class="form_signin_txt">Enter your username to Reset Password:</p>
+                <div class="error_box error_txt">
+                  <span style="font-weight: 600;">Error!</span> <span> Username does not exist!</span>
+                </div>
+                <input name="email" type="text" id="inputEmail" class="form-control custom_input" placeholder="someone@example.com" required="" autofocus="">
+                <div class="form_action">
+                  <button name="submit" class="btn btn-lg  btn-block btn-signin" type="submit">Reset</button>
+                </div>
+                <a href="forgot_password.php" class="login_forgot_txt">Login</a>
+              </div>
+
             </form>
           </div>
+
+          
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </div>
