@@ -29,11 +29,11 @@ button.openbtn {display: inline-block;}
 .mainMenu .nav li a:hover .nav-icons {opacity: 1;}
 .mainMenu .nav {height:100%;width: 100%;}
 .mainMenu li {height:11%;}
-.nav > li {position: relative;display: block;width:100%;text-align: center;margin:25px;}
+.nav > li {position: relative;display: block;width:100%;text-align: center;margin-top:20px;margin-bottom: 20px;}
 .mainMenu .nav > li.active a {color: #fbfbfb;opacity: 1;}
 .mainMenu .nav > li > a:focus {color: rgba(255, 255, 255, 1);}
 .mainMenu .nav > li > a:hover {color: rgba(255, 255, 255, 1);}
-.mainMenu .nav li > a {border-radius: 4px;color: rgba(255, 255, 255, 0.6);margin: 0;opacity: 0.86;text-align: center;text-decoration: none;}
+.mainMenu .nav li > a {border-radius: 4px;color: rgba(255, 255, 255, 0.6);margin:0;opacity: 0.86;text-align: center;text-decoration: none;}
 .nav-icons {width: 25px;opacity:0.6;}
 img {vertical-align: middle;}
 .nav > li > a {position: relative;display: block;}
@@ -42,11 +42,9 @@ img {vertical-align: middle;}
 .mainMenu .nav > li > a:hover  {opacity: 1;}
 .menu-clickable {cursor: pointer;}
 .nav > li > a > img {max-width: none;}
-.mainMenu .nav p {margin: 0;line-height: 22px;font-size: 14px; position: relative; bottom: 0;}
-.logout-text {color: rgba(255, 255, 255, 0.8);font-size:22px;position: relative;display: block;width:100%;text-align: center;margin:25px;}
-.log-out{float: center;}
-
-
+.mainMenu .nav p {margin: 0;line-height:48px;font-size:36px; position: relative; bottom: 0;}
+.mainMenu a.closebtn { color: #fff; text-decoration: none;float: right;font-size: 48px;font-weight: 600;margin-right:12px; }
+.mainMenu a.closebtn:focus,.mainMenu a.closebtn:hover {color:red;text-decoration: none;} 
 }
 
 
@@ -66,7 +64,7 @@ button.openbtn {display: inline-block;}
 
 .mainMenu .nav {height:100%;width: 100%;}
 .mainMenu li {height:11%;}
-.nav > li {position: relative;display: block;width:100%;text-align: center;/*margin:17px;*/}
+.nav > li {position: relative;display: block;width:100%;text-align: center;margin-top:17px;margin-bottom:17px}
 .mainMenu .nav > li.active a {color: #fbfbfb;opacity: 1;}
 .mainMenu .nav > li > a:focus {color: rgba(255, 255, 255, 1);}
 .mainMenu .nav > li > a:hover {color: rgba(255, 255, 255, 1);}
@@ -79,8 +77,9 @@ img {vertical-align: middle;}
 .mainMenu .nav > li > a:hover {opacity: 1;}
 .menu-clickable {cursor: pointer;}
 .nav > li > a > img {max-width: none;}
-.mainMenu .nav p {margin: 0;line-height: 22px;font-size: 14px; position: relative; bottom: 0;}
-
+.mainMenu .nav p {margin: 0;line-height:48px;font-size:36px; position: relative; bottom: 0;}
+.mainMenu a.closebtn { color: #fff; text-decoration: none;float: right;font-size: 48px;font-weight: 600;margin-right:12px; }
+.mainMenu a.closebtn:focus,.mainMenu a.closebtn:hover {color:red;text-decoration: none;} 
 }
 
 
