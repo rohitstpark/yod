@@ -1,4 +1,6 @@
 /*todo_list*/
+.header_part{font-family:SegoeUI, sans-serif;font-weight: 300;box-sizing: border-box;font-size: 14px;
+line-height: 23px;}
 .home_content{height: 100%;left: 140px; margin-top: 100px;display: block;}
 .tab_title{font-size: 25px;font-weight: 500;color:#272e82;}
 .home_content .btn.btn_signin {padding:5px 8px 8px 8px;font-weight: 700;font-size: 14px;height: 36px;border: none;text-decoration: none;
