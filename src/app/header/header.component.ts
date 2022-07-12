@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+ public respoosiveClass = false;
 
-  constructor() { }
+ constructor() { }
 
   ngOnInit(): void {
+
+  }
+
+  toggle(){
+    this.respoosiveClass = !this.respoosiveClass;
+    console.log(this.respoosiveClass);
   }
 
 }
