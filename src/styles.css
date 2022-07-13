@@ -1,9 +1,10 @@
 @font-face {
-  font-family: SEGOEUI;
+  font-family: 'Segoe UI';
   src: url(/assets/font/SEGOEUI.TTF);
+  src: url(/assets/font/segoeuil.ttf);
 }
 
-* { font-family: 'SEGOEUI'; box-sizing: border-box; }
+* { font-family: 'Segoe UI'; box-sizing: border-box; }
 
 /*.fa { font: normal normal normal 14px/1 FontAwesome; }*/
 /*desktop*/
