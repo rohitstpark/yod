@@ -16,7 +16,7 @@ box-shadow: none; }
 	-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box; border-radius: 10px;}*/
 
 .remember_pass { display: flex; align-items: center; margin: 0 0 6px; }
-.remember_pass span { color: #fff; font-size: 12px; font-weight: 600; line-height: 14px; margin: 0 0 0 5px; }
+.remember_pass span { color: #fff; font-size: 11px; font-weight: 600; line-height: 14px; margin: 0 0 0 5px; }
 
 .custom_input::placeholder { opacity: 0.7; background-color: #FFFFFF; }
 .custom_input { background-color: #FFFFFF; border: 1px solid #E3E3E3; border-radius: 10px; color: #565656; padding: 8px 12px; height: 38px; box-shadow: none; margin-bottom: 10px; font-size: 16px; line-height: 18px; font-weight: 400; }
