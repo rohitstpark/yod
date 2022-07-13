@@ -1,11 +1,10 @@
 /*desktop*/
-.form_signin_con{background-image:url('/assets/image/rose-bg.jpg');height:100%;position:absolute;
- background-size: cover ;width: 100%;}
-.form_signin_co{margin-top: calc(50vh - 225px);justify-content:center;display: flex; }
-.form_signin_img{width: 200px;height: auto;margin: 0 auto 10px;display: block; border-bottom: 1px solid #fff;padding-bottom: 10px;}
+.form_signin_con { background-image:url('/assets/image/rose-bg.jpg'); height:100%; position:absolute; background-size: cover ;width: 100%; }
+.form_signin_co { display: flex; justify-content:center; align-items: center; min-height: 100vh; height: 100%; }
+.form_signin_img{ width: 200px; height: auto; margin: 0 auto 0px; display: block; border-bottom: 1px solid #b2b2b2; padding-bottom: 0px; }
 .form-signin{font-family:SEGOEUI, sans-serif;font-weight:400; max-width: 340px;padding: 30px 30px;background: transparent;
 box-shadow: none;height: 450px;}
-.form_signin_txt{color:#ffffff;font-size: 13px;margin-top:-10px;}
+.form_signin_txt{ font-size: 13px; font-weight: 300; margin: 0 0 12px; color: #fff; }
 .form_signin_input {background-color: #ffffff;border: 1px solid #E3E3E3;color:#565656;padding: 8px 12px;height:40px;-webkit-box-shadow: none;
 	box-shadow: none;margin-bottom: 10px; border-radius: 10px;}
 .form-signin input[type="text"], .form-signin button {width: 100%;display: block;margin-bottom: 10px;z-index: 1;position: relative;
@@ -17,12 +16,19 @@ box-shadow: none;height: 450px;}
 .form-signin input[type="password"], .form-signin button {width: 100%;display: block;margin-bottom: 10px;z-index: 1;position: relative;
 	-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box; border-radius: 10px;}
 
+.remember_pass { display: flex; align-items: center; margin: 0 0 6px; }
+.remember_pass span { color: #fff; font-size: 12px; line-height: 14px; margin: 0 0 0 5px; }
+
+.error_box { padding: 5px 16px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; }
+.error_box b { font-weight: 600; }
+.error_txt { color: #a94442; background-color: #f2dede; border-color: #ebccd1; }
+
 /*tablet*/
 @media only screen and (min-width: 768px) and (max-width:  1024px) {
-  .form_signin_co{margin-top: calc(50vh - 225px);}   
+  /*.form_signin_co{margin-top: calc(50vh - 225px);}   */
  }
 /*moblie*/
 @media only screen and (min-width: 300px) and (max-width:  767px) {
-  .form_signin_co{margin-top: calc(50vh - 225px);} 
-  .form_signin_txt{font-size: 12px;}  
+  /*.form_signin_co{margin-top: calc(50vh - 225px);} */
+  /*.form_signin_txt{font-size: 12px;}  */
  }
