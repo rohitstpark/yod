@@ -3,8 +3,9 @@
   src: url(/assets/font/SEGOEUI.TTF);
 }
 
-* { font-family: 'SEGOEUI' !important; font-weight: 300; box-sizing: border-box; font-size: 14px; line-height: 23px; }
+* { font-family: 'SEGOEUI'; box-sizing: border-box; }
 
+/*.fa { font: normal normal normal 14px/1 FontAwesome; }*/
 /*desktop*/
 @media only screen and (min-width:  1024px){
     .header_part{display: block;}

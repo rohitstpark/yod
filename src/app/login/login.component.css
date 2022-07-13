@@ -31,4 +31,5 @@ box-shadow: none;height: 450px;}
 @media only screen and (min-width: 300px) and (max-width:  767px) {
   /*.form_signin_co{margin-top: calc(50vh - 225px);} */
   /*.form_signin_txt{font-size: 12px;}  */
+  .form-signin { padding: 30px 12px; }
  }
