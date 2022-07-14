@@ -2,7 +2,7 @@
 .navbar.navbar-default.navbar_fixed {position: fixed;right: 0;left: 0;z-index:8;height:70px;background: #303030;background-size: auto;background-size:cover;}
 .navbar {border: 0;font-size: 16px;border-radius:0;}
 .header_site_logo {display: inline-block;left: 0;margin: 0;background: #d5af9c;width: 110px;height: 70px;
-max-width: 110px;max-height: 70px;padding: 20px 5px;margin:-7px 0px -7px -11px;}
+max-width: 110px;max-height: 70px;padding: 20px 5px;margin:-8px 0px -7px -12px;}
 .img-responsive {display: block;max-width:100px;height:auto;}
 
 /*header_right*/
@@ -24,7 +24,7 @@ color: inherit;}
 .menu_btn{float: right;} 
 .openbtn {font-size: 30px;cursor: pointer;background-color:transparent;color:#fff;padding:15px;border:none;margin-top:8px;}
 button.openbtn {display: inline-block;}
-.mobile {background-color: #303030;height: 100vh;overflow: hidden;}
+.mobile {background-color: #303030;height: 100vh;overflow: hidden; display:none;}
 .header_con{border-bottom:1px solid #fff;}
 .mainMenu .nav li a:hover .nav-icons {opacity: 1;}
 .mainMenu .nav {height:100%;width: 100%;}
@@ -43,7 +43,7 @@ img {vertical-align: middle;}
 .menu-clickable {cursor: pointer;}
 .nav > li > a > img {max-width: none;}
 .mainMenu .nav p {margin: 0;line-height:48px;font-size:36px; position: relative; bottom: 0;}
-.mainMenu a.closebtn { color: #fff; text-decoration: none;float: right;font-size: 48px;font-weight: 600;margin-right:12px; }
+.mainMenu a.closebtn { color: #fff; text-decoration: none;float: right;font-size: 48px;font-weight: 600;margin-right: -43px;}
 .mainMenu a.closebtn:focus,.mainMenu a.closebtn:hover {color:red;text-decoration: none;} 
 }
 
@@ -59,12 +59,12 @@ img {vertical-align: middle;}
 .menu_btn{float: right;} 
 .openbtn {font-size: 30px;cursor: pointer;background-color:transparent;color:#fff;padding:15px;border:none;margin-top:8px;}
 button.openbtn {display: inline-block;}
-.mobile {background-color: #303030;height: 100vh;overflow: hidden;}
+.mobile {background-color: #303030;height: 100vh;overflow: hidden;display: none;}
 .header_con{border-bottom:1px solid #fff;}
 
 .mainMenu .nav {height:100%;width: 100%;}
 .mainMenu li {height:11%;}
-.nav > li {position: relative;display: block;width:100%;text-align: center;margin-top:17px;margin-bottom:17px}
+.nav > li {position: relative;display: block;width:100%;text-align: center;margin-top:13px;margin-bottom:13px}
 .mainMenu .nav > li.active a {color: #fbfbfb;opacity: 1;}
 .mainMenu .nav > li > a:focus {color: rgba(255, 255, 255, 1);}
 .mainMenu .nav > li > a:hover {color: rgba(255, 255, 255, 1);}
@@ -78,7 +78,7 @@ img {vertical-align: middle;}
 .menu-clickable {cursor: pointer;}
 .nav > li > a > img {max-width: none;}
 .mainMenu .nav p {margin: 0;line-height:48px;font-size:36px; position: relative; bottom: 0;}
-.mainMenu a.closebtn { color: #fff; text-decoration: none;float: right;font-size: 48px;font-weight: 600;margin-right:12px; }
+.mainMenu a.closebtn { color: #fff; text-decoration: none;float: right;font-size: 48px;font-weight: 600;margin-right:-42px; }
 .mainMenu a.closebtn:focus,.mainMenu a.closebtn:hover {color:red;text-decoration: none;} 
 }
 
