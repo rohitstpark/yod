@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart, Event } from '@angular/router';
+
 @Component({
   selector: 'app-side-panel',
   templateUrl: './side-panel.component.html',
