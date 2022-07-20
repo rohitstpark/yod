@@ -1,6 +1,4 @@
  
- 
-
  <!-- <app-header *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-header>
 <app-left-menu *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-left-menu> 
 
@@ -10,12 +8,12 @@
 <app-login *ngIf="loginType=='before_login'" class="sm_navbar_hide"></app-login> 
  -->
 
- <app-header *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-header>
+<app-header *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-header>
 <app-left-menu  *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-left-menu> 
-
 
  <div class="main_container">
 	<router-outlet></router-outlet>
 </div> 
+
 <app-login *ngIf="loginType=='before_login'" class="sm_navbar_hide"></app-login> 
 

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart, Event } from '@angular/router';
 
 @Component({
-  selector: 'app-todo-list',
-  templateUrl: './todo-list.component.html',
-  styleUrls: ['./todo-list.component.css']
+  selector: 'app-side-panel',
+  templateUrl: './side-panel.component.html',
+  styleUrls: ['./side-panel.component.css']
 })
-export class TodoListComponent implements OnInit {
+export class SidePanelComponent implements OnInit {
 
   constructor(private router: Router) {   }
 

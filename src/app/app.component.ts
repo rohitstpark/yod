@@ -10,10 +10,12 @@ import { Location } from '@angular/common';
 export class AppComponent {
   title = 'yod';
   public loginType:any;
-  constructor(private router: Router, private location: Location, private route: ActivatedRoute) {
 
-    console.log(this.location.path());
-
+  constructor(
+    private router: Router, 
+    private location: Location, 
+    private route: ActivatedRoute) {
+    
     if(this.location.path() == '') {
         localStorage.setItem('login', 'before_login');
     } else  {
