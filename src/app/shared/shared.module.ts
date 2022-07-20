@@ -4,11 +4,10 @@ import { SidePanelComponent } from './side-panel/side-panel.component';
 
 @NgModule({
   declarations: [
-    // TodoListComponent
+   SidePanelComponent
   ],
   imports: [
     CommonModule,
-    SidePanelComponent
   ]
 })
-export class TodoModule { }
+export class SharedModule { }
