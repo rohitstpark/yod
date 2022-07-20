@@ -1,1 +1,6 @@
 .main_container{margin: 0px 0px 0px 105px;}
+
+/*tablet_todo*/
+@media screen and (min-width:300px) and (max-width: 991px){
+  .main_container{margin: 0px 0px 0px 0px;}
+  }

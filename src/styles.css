@@ -1,14 +1,12 @@
-body .login-header{
-	background-image:url('assets/image/rose-bg.jpg');
-}
 @font-face {
-  font-family: SEGOEUI;
+  font-family: 'Segoe UI';
   src: url(/assets/font/SEGOEUI.TTF);
-}
-*{font-family:SEGOEUI, sans-serif;font-weight: 300;box-sizing: border-box;font-size: 14px;
-line-height: 23px;
+  src: url(/assets/font/segoeuil.ttf);
 }
 
+* { font-family: 'Segoe UI'; box-sizing: border-box; }
+
+/*.fa { font: normal normal normal 14px/1 FontAwesome; }*/
 /*desktop*/
 @media only screen and (min-width:  1024px){
     .header_part{display: block;}
