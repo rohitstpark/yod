@@ -1,6 +1,34 @@
-.main_container{margin: 0px 0px 0px 105px;}
+/*.main_container{margin: 0px 0px 0px 105px;}*/
 
 /*tablet_todo*/
-@media screen and (min-width:300px) and (max-width: 991px){
+/*@media screen and (min-width:300px) and (max-width: 991px){
   .main_container{margin: 0px 0px 0px 0px;}
-  }
+  }*/
+
+
+.yod_content {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+.yod_t_con {
+    display: block;
+    width: 100%;
+    min-height: 70px;
+}
+.yod_b_con_l {
+    max-width: 110px;
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+}
+.yod_b_con_r {
+    width: 100%;
+    padding: 32px;
+}
+
+.yod_b_con {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 70px);
+}

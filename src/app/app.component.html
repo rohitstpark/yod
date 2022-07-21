@@ -1,19 +1,25 @@
- 
- <!-- <app-header *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-header>
-<app-left-menu *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-left-menu> 
+<!-- <app-header *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-header>
+  <app-left-menu *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-left-menu> 
 
- <div *ngIf="loginType=='after_login'" class="main_container">
-	<router-outlet></router-outlet>
-</div> 
-<app-login *ngIf="loginType=='before_login'" class="sm_navbar_hide"></app-login> 
- -->
+  <div *ngIf="loginType=='after_login'" class="main_container">
+  	<router-outlet></router-outlet>
+  </div>
+<app-login *ngIf="loginType=='before_login'" class="sm_navbar_hide"></app-login> -->
 
-<app-header *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-header>
-<app-left-menu  *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-left-menu> 
+<!-- <div class="main_container"></div>  -->
 
- <div class="main_container">
-	<router-outlet></router-outlet>
-</div> 
+<div class="yod_content">
+  <div class="yod_t_con">
+    <app-header *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-header>
+  </div>
+  <div class="yod_b_con">
+    <div class="yod_b_con_l">
+      <app-left-menu *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-left-menu>
+    </div>
+    <div class="yod_b_con_r">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
 
-<app-login *ngIf="loginType=='before_login'" class="sm_navbar_hide"></app-login> 
-
+<app-login *ngIf="loginType=='before_login'" class="sm_navbar_hide"></app-login>
