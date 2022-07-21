@@ -8,9 +8,9 @@
 
 <!-- <div class="main_container"></div>  -->
 
-<div class="yod_content">
+<div class="yod_content" *ngIf="loginType=='after_login'">
   <div class="yod_t_con">
-    <app-header *ngIf="loginType=='after_login'" class="sm_navbar_hide"></app-header>
+    <app-header class="sm_navbar_hide"></app-header>
   </div>
   <div class="yod_b_con">
     <div class="yod_b_con_l">
