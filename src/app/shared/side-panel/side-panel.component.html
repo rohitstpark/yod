@@ -1,21 +1,219 @@
 <div class="sidebar-wrapper">
-  <div class="sidebar_add">
-    <i class="fa-solid fa-xmark sidebar_add_ic" (click)="actionEvent()"></i>
-    <header class="sidebar_add_hed"><h5>Bride and Goom: Add task</h5></header>
-    <form>
-      <div class="sidebar_add_txt">
-        <input type="text" name="name" placeholder="Bride accessories purchased"class="form-control">
+  <div class="sidebar_wap_con">
+    <!-- add category -->
+      <div class="sidebar_add">
+        <i class="far fa-times-circle"></i>
+        <header class="sidebar_add_hed"><h5>Add Category</h5></header>
+        <form>
+          <div class="sidebar_add_txt">
+            <input type="text" name="name" placeholder="Reception and Number"class="form-control">
+          </div>
+          <button name="submit" class="sidebar_add_input_btn sidebar_add_btn_signin fsw_13" type="submit">ADD CATEGORY</button>
+        </form>
       </div>
-      <div class="sidebar_add_txt">
-        <input type="text" name="name" placeholder="Add date here" class="form-control">
-        <i class="fa-solid fa-calendar-days sidebar_add_ico float-end"></i>
+      <div class="sidebar_add">
+        <i class="fa-solid fa-xmark sidebar_add_ic" (click)="actionEvent()"></i>
+        <header class="sidebar_add_hed"><h5>Bride and Goom: Add task</h5></header>
+        <form>
+          <div class="sidebar_add_txt">
+            <input type="text" name="name" placeholder="Bride accessories purchased"class="form-control">
+          </div>
+          <div class="sidebar_add_txt">
+            <input type="text" name="name" placeholder="Add date here" class="form-control">
+            <i class="fa-solid fa-calendar-days sidebar_add_ico float-end"></i>
+          </div>
+          <div>
+            <input class="btn btn-primary sidebar_ad_btn" type="button" value="Outstanding">
+            <input class="btn sidebar_add_btn " type="button" value="completed">
+            <input class="btn sidebar_add_btn" type="button" value="Urgent">
+          </div>
+          <button name="submit" class="btn btn-lg  btn-block sidebar_add_btn_signin mt-3" type="submit">ADD CATEGORY</button>
+        </form>
       </div>
-      <div>
-        <input class="btn btn-primary sidebar_ad_btn" type="button" value="Outstanding">
-        <input class="btn sidebar_add_btn " type="button" value="completed">
-        <input class="btn sidebar_add_btn" type="button" value="Urgent">
+
+      <div class="sidebar_add">
+        <i class="far fa-times-circle"></i>
+        <header class="sidebar_add_hed"><h5>Bride and Goom: Add task</h5></header>
+        <button name="submit" class="btn_blue" type="submit">
+          <i class="fas fa-plus car_ic_btn"></i>ADD TASK
+        </button>
+        <ul class="nav nav-pills nav_list_con" id="pills-tab" role="tablist">
+          <li class="nav-item nav_list_item" role="presentation">
+            <button class="nav-link active" id="pills-All-Task-tab" data-bs-toggle="pill" data-bs-target="#pills-All-Task" type="button" role="tab" aria-controls="pills-All-Task" aria-selected="true">All Task</button>
+          </li>
+          <li class="nav-item nav_list_item" role="presentation">
+            <button class="nav-link " id="pills-Outstanding-tab" data-bs-toggle="pill" data-bs-target="#pills-Outstanding" type="button" role="tab" aria-controls="pills-Outstanding" aria-selected="false">Outstanding</button>
+          </li>
+          <li class="nav-item nav_list_item" role="presentation">
+            <button class="nav-link" id="pills-Urgent-tab" data-bs-toggle="pill" data-bs-target="#pills-Urgent" type="button" role="tab" aria-controls="pills-Urgent" aria-selected="false">Urgent</button>
+          </li>
+          <li class="nav-item nav_list_item" role="presentation">
+            <button class="nav-link" id="pills-Completed-tab" data-bs-toggle="pill" data-bs-target="#pills-Completed" type="button" role="tab" aria-controls="pills-Completed" aria-selected="false">Completed</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-All-Task" role="tabpanel" aria-labelledby="pills-All-Task-tab">
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Brides accessories purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_pink">Outstanding</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Wedding dress purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_blu">Completed</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Grooms accessories purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_org">Urgent</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Brides accessories purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_pink">Outstanding</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Weddind dress purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_green">Completed</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Grooms accessories purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_org">Urgent</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-Outstanding" role="tabpanel" aria-labelledby="pills-Outstanding-tab">
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Brides accessories purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_pink">Outstanding</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Brides accessories purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_pink">Outstanding</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-Urgent" role="tabpanel" aria-labelledby="pills-Urgent-tab">
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Grooms accessories purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_org">Urgent</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Grooms accessories purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_org">Urgent</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-Completed" role="tabpanel" aria-labelledby="pills-Completed-tab">
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Wedding dress purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_blu">Completed</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab_con">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="tab_decs">Weddind dress purchased</p>
+                  <span class="tab_decs_spn"><i class="fa-solid fa-calendar-days pill_icon"></i> 13/06/2022</span>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn_r btn_green">Completed</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <button name="submit" class="btn btn-lg  btn-block sidebar_add_btn_signin mt-3" type="submit">ADD CATEGORY</button>
-    </form>
+
+      <!-- bride_con_panel -->
+      <div class="sidebar_add">
+        <i class="far fa-times-circle"></i>
+        <header class="sidebar_add_hed"><h5>Bride and Goom: Add task</h5></header>
+        <form>
+          <div class="sidebar_add_txt">
+            <input type="text" name="name" placeholder="Bride accessories purchased"class="form-control">
+          </div>
+          <div class="sidebar_add_txt">
+            <input type="text" name="name" placeholder="Add date here" class="form-control">
+            <i class="fa-solid fa-calendar-days sidebar_add_ico float-end"></i>
+          </div>
+          <div>
+            <input class="sidebar_add_input_btn sidebar_ad_btn fsw_13" type="button" value="Outstanding">
+            <input class="sidebar_add_input_btn sidebar_add_btn fsw_13 " type="button" value="completed">
+            <input class="sidebar_add_input_btn sidebar_add_btn fsw_13" type="button" value="Urgent">
+          </div>
+          <button name="submit" class="sidebar_add_input_btn sidebar_add_btn_signin fsw_13" type="submit">ADD CATEGORY</button>
+        </form>
+      </div>
   </div>
-</div>
+</div> 

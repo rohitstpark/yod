@@ -7,7 +7,8 @@
         <p class="tab_title">TO DO LIST</p>
         <div class="task_info">
           <button  name="submit" class="btn_signin" type="button" (click)="sidePanel()">
-            <i class="fas fa-plus-circle add_ic_l"></i>ADD NEW CATEGORY
+            <i class="far fa-times-circle add_ic_l" style="transform: rotate(45deg);"></i>
+            <span>ADD NEW CATEGORY</span>
           </button>
         </div>
       </div>
@@ -39,7 +40,7 @@
                 </div>
                 <div>
                   <span class="pro_sp_t">80</span>
-                  <p class="pro_sp_b">Done</p>
+                  <p class="pro_sp_b">To do</p>
                 </div>
               </div>
             </div>
@@ -166,7 +167,12 @@
       </div>
     </div>
   </div>
-  <div class="side_panel_container " *ngIf="sidePanelData" [ngClass]="sidePanelData ? 'panel_active' : 'panel_unactive' ">
+
+  <div class="side_panel_container" *ngIf="sidePanelData" [ngClass]="sidePanelData ? 'panel_active' : 'panel_unactive' ">
     <app-side-panel (eventPassAction)="closeSidePanel()"></app-side-panel>
   </div>
 </div>
+
+
+
+
