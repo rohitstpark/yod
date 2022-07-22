@@ -1,43 +1,38 @@
+/*common css*/
 .sidebar-wrapper { position: fixed; left: 0; width: 100%; height: 100vh; background: #0000003b; z-index: 0; top: 0; }
 .sidebar_wap_con { display: block; width: 100%; height: 100%; overflow-y: auto; overflow-x: hidden; padding: 70px 0 0; }
 .sidebar_body { background-color: #fcfcfc; max-width: 410px; width: 100%; height: 100%; margin: 0 0 0 auto; padding: 20px; }
 
-/*Add catagory*/
-.sidebar_header { display: flex; align-items: center; justify-content: space-between; margin: 0 0 28px; }
+.sidebar_header { display: flex; align-items: center; justify-content: space-between; margin: 0 0 28px;}
 .sidebar_header .sh_title { font-size: 16px; line-height: 20px; font-weight: 600; margin: 0; }
 .sidebar_header .close_icon { opacity: 0.5; cursor: pointer; }
 .sidebar_header .close_icon:hover { opacity: 1; }
-
-.sidebar_body .cus_btn { width: 100%; }
-.sidebar_body .custom_input {margin: 0 0 18px; }
-
-/*.cus_input::placeholder { opacity: 0.7; background-color: #FFFFFF; }
-.cus_input {background-color: #FFFFFF; border: 2px solid #E3E3E3; border-radius: 10px; color: #565656; padding: 8px 12px;
- height: 38px; box-shadow: none; margin-bottom: 10px; font-size: 16px; line-height: 18px; font-weight: 600;margin-top: 20px; }*/
-/*.btn.sidebar_add_btn { background: #b7b3b3; text-decoration: none; border-radius: 10%; width: 105px; }*/
-.sidebar_add_input_btn {text-decoration: none; border: none; }
 .fsw_13 { font-size: 14px; font-weight: 600;}
-.sidebar_add_btn_signin { height: 36px; border: none; text-decoration: none; border-radius: 5px; width: 100%; margin-top: 15px; }
 
+/*pannel-1*/
+.sidebar_body .cus_btn { width: 100%; }
+.sidebar_body .custom_input { margin: 0 0 18px; }
+
+/*pannel-2*/
 .date_icon_con .data_icon { position: absolute; top: 10px; right: 14px; color: #d5af9c; }
-.date_icon_con { position: relative;}
-.sidebar_btn_spa { display: flex; justify-content: space-between; margin: 0 0 24px; }
-.sidebar_ad_btn_signin { width:115px; padding:2px 8px; border-radius:5px; line-height: 23px; }
+.date_icon_con { position: relative; }
+.sidebar_add_input_btn {text-decoration: none; border: none; width:115px; padding: 2px 8px; border-radius: 5px; line-height: 23px;}
+.sidebar_btn { display: flex; justify-content: space-between; margin: 0 0 24px; }
+
   
-
-.btn_pink { background: #d5af9c; }
-.btn_blu { background:#546ffc; }
-.btn_org { background: #f74214; }
-.btn_green { background: #43c191; }
-.btn_light_gray { background: #c6cfd8; }
-.btn_text_white{color: #fff;}
-.text_light_black{color: #565656;}
-
-
-.sidebar_add_task_btn { width: 90px; padding: 2px; border-radius: 5px; margin-top: 10px; line-height: 23px;}
-.car_ic_btn { padding: 2px 5px 2px 2px; font-size: 14px; /*margin-right:5px;*/ font-size: 11px;}
+/*pannel-3*/
 .fsw_11 { font-size: 11px; font-weight:600;}
-.nav_list_con{background:#d3c9c9;}
+.cus_btn_m { border: none; text-decoration: none; border-radius: 8px; padding: 4px; width: 85px; margin-bottom: 28px; line-height: 18px; }
+.btn_icon { padding: 2px 5px 2px 2px; font-size: 11px;  font-size: 11px;}
+.task_status_con { margin: 0 -20px;}
+.nav_list_con{background:#e4e9ed;}
+
+
+
+
+
+
+
 .tab_con{ background: #e4e9ed;
     border-top: 1px solid #fff;
 }
@@ -56,11 +51,13 @@
 .btn_text_white{color: #fff;}
 .text_light_black{color: #565656;}
 
-/*
 
-.cus_input:focus { border-color: rgb(104, 145, 162); outline: 0; -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%),
- 0 0 8px rgb(104 145 162); box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(104 145 162); }*/
 
  .task_status_con {
     margin: 0 -20px;
 }
+
+.btn_org { background: #f74214; }
+.btn_green { background: #43c191; }
+
+.btn_text_white{color: #fff;}

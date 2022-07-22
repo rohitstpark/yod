@@ -29,6 +29,7 @@
 /*background color*/
 .bg_pink { background: #d5af9c; }
 .bg_blue { background: #5b6fb5; }
+.bg_lig_gra { background: #c6cfd8; }
 
 
 
@@ -37,6 +38,7 @@
 .txt_b { color: #000; }
 .txt_blu { color: #5b6fb5; }
 .txt_pink { color: #d5af9c; }
+.txt_lig_b{color: #565656;}
 
 
     /*background: #d5af9c;

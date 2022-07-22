@@ -1,8 +1,7 @@
 <div class="sidebar-wrapper">
   <div class="sidebar_wap_con">
-
-    <!-- add category -->
-    <div class="sidebar_body" style="display: none;">
+    <!-- pannel-1 -->
+    <div class="sidebar_body" style="display: none;" >
       <div class="sidebar_header">
         <p class="sh_title">Add Category</p>
         <i class="far fa-times-circle close_icon" (click)="actionEvent()"></i>
@@ -12,7 +11,7 @@
         <button name="submit" class="cus_btn btn_pink btn_h_40" type="submit">ADD CATEGORY</button>
       </form>
     </div>
- 
+     <!-- pannel-2 -->
     <div class="sidebar_body" style="display: none;">
       <div class="sidebar_header">
         <p class="sh_title">Bride and Goom: Add task</p>
@@ -24,24 +23,24 @@
           <input name="name" type="text" id="#" class="form-control custom_input" placeholder="Add date here">
           <i class="fas fa-calendar-alt data_icon"></i> 
         </div> 
-        <div class="sidebar_btn_spa">
-          <button class="sidebar_add_input_btn sidebar_ad_btn_signin fsw_13 btn_blu btn_text_white">Outstanding</button>  
-          <button class="sidebar_add_input_btn sidebar_ad_btn_signin  fsw_13 btn_light_gray text_light_black">completed</button>  
-          <button class="sidebar_add_input_btn sidebar_ad_btn_signin fsw_13 btn_light_gray text_light_black">Urgent</button>
+        <div class="sidebar_btn">
+          <button class="sidebar_add_input_btn fsw_13 btn_blu txt_w">Outstanding</button>  
+          <button class="sidebar_add_input_btn fsw_13 bg_lig_gra txt_lig_b">completed</button>  
+          <button class="sidebar_add_input_btn fsw_13 bg_lig_gra txt_lig_b">Urgent</button>
         </div>
         <button name="submit" class="cus_btn btn_pink btn_h_40" type="submit">ADD TASK</button>
       </form>
     </div>
 
 
-
-    <div class="sidebar_body">
+    <!-- pannel-3 -->
+    <div class="sidebar_body" >
       <div class="sidebar_header">
         <p class="sh_title">Bride and Goom: Tasks</p>
         <i class="far fa-times-circle close_icon" (click)="actionEvent()"></i>
       </div>
-      <button name="submit" class="sidebar_add_input_btn sidebar_add_task_btn fsw_11 btn_blu btn_text_white" type="submit">
-        <i class="fas fa-plus car_ic_btn"></i>
+      <button name="submit" class="cus_btn_m fsw_11 btn_blu txt_w" type="submit">
+        <i class="fas fa-plus btn_icon"></i>
         <span>ADD TASK</span>
       </button>
       <div class="task_status_con">
