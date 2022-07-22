@@ -1,5 +1,5 @@
 .section_title_con { display: flex; align-items: center; justify-content: space-between; margin: 0 0 18px; }
-.tab_title{font-size:24px;font-weight:600;color: #5b6fb5; margin: 0;}
+.tab_title { font-size: 22px; line-height: 26px; font-weight:600;color: #5b6fb5; margin: 0;}
 .section_title_con .btn_signin { font-weight: 600; font-size: 14px; height: 40px; border: none; text-decoration: none; background: #d5af9c; border-radius: 5px; padding: 10px 14px; color: #333331; }
 .add_ic_l{ font-size: 14px; margin-right: 6px; color: #000; }
 .pro_l{margin-right: 90px;}	
@@ -66,7 +66,7 @@
 .task_info{justify-content:end;display: flex; height: 100%; align-items: center; }
 .ca_mp{margin-top:5px;}
 .cat_icon { margin-left:18px; cursor: pointer; color: #8a8a8a; }
-.btn_pink {background: #d5af9c; color: #fff;border:none;}
+.btn_pink {background: #d5af9c; color: #fff; border:none;}
 .btn_blue{ background: #5b6fb5; color: #fff;border:none;}
 .car_ic_btn{ font-size: 12px;  margin-right: 6px; }
 .ca_card_box_r{ display: flex; align-items: center; justify-content: end; height: 100%; }

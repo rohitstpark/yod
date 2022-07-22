@@ -4,19 +4,43 @@
   src: url(/assets/font/segoeuil.ttf);
 }
 
-* { font-family: 'Segoe UI'; box-sizing: border-box; }
+* { font-family: 'Segoe UI' !important; box-sizing: border-box; }
 
+.fa, .far, .fas { font-family: "Font Awesome 5 Free" !important; }
 /*.fa { font: normal normal normal 14px/1 FontAwesome; }*/
 
 /*custom input*/
 .custom_input::placeholder { opacity: 0.7; background-color: #FFFFFF; }
-.custom_input { background-color: #FFFFFF; border: 1px solid #E3E3E3; border-radius: 10px; color: #565656; padding: 8px 12px; height: 38px; box-shadow: none; margin-bottom: 10px; font-size: 16px; line-height: 18px; font-weight: 400; }
-.custom_input:focus { border-color: rgb(104, 145, 162); outline: 0; -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(104 145 162); box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(104 145 162); }
+.custom_input { background-color: #FFFFFF; border: none; border-radius: 10px; color: #565656; padding: 8px 12px; max-height: 36px; margin-bottom: 10px; font-size: 16px; line-height: 18px; font-weight: 500; box-shadow: 0px 1px 12px 0px #00000017; }
+.custom_input:focus { outline: 0; box-shadow: 0px 1px 12px 0px #00000017; }
 
 .error_box { padding: 5px 12px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; font-size: 14px; line-height: 18px; }
 .error_txt { color: #a94442; background-color: #f2dede; border-color: #ebccd1; }
 
+/*button*/
+.cus_btn { font-size: 14px; line-height: 16px; font-weight: 600; border: none; text-decoration: none; border-radius: 8px; padding: 8px 12px; }
+.btn_h_36 { min-height: 36px; }
+.btn_h_40 { min-height: 40px; }
+.btn_pink { background: #d5af9c; color: #333331 !important; }
 
+.btn_blue { background: #5b6fb5; color: #fff; }
+.btn_blue:hover { background: #455798; }
+
+/*background color*/
+.bg_pink { background: #d5af9c; }
+.bg_blue { background: #5b6fb5; }
+
+
+
+/*text color*/
+.txt_w { color: #fff; }
+.txt_b { color: #000; }
+.txt_blu { color: #5b6fb5; }
+.txt_pink { color: #d5af9c; }
+
+
+    /*background: #d5af9c;
+    color: #333331;*/
 
 /*desktop*/
 @media only screen and (min-width:  1024px){

@@ -1,7 +1,18 @@
 .sidebar-wrapper { position: fixed; left: 0; width: 100%; height: 100vh; background: #0000003b; z-index: 0; top: 0; }
-.sidebar_add { background-color: #fcfcfc; max-width: 410px; width: 100%; height: 100%; margin: 0 0 0 auto; padding: 20px; }
-.sidebar_add_icon { float: right; margin-top: 5px; }
-.sidebar_add_hed { font-weight: 600; }
+.sidebar_wap_con { display: block; width: 100%; height: 100%; overflow-y: auto; overflow-x: hidden; padding: 70px 0 0; }
+.sidebar_body { background-color: #fcfcfc; max-width: 410px; width: 100%; height: 100%; margin: 0 0 0 auto; padding: 20px; }
+
+/*Add catagory*/
+.sidebar_header { display: flex; align-items: center; justify-content: space-between; margin: 0 0 28px; }
+.sidebar_header .sh_title { font-size: 16px; line-height: 20px; font-weight: 600; margin: 0; }
+.sidebar_header .close_icon { opacity: 0.5; cursor: pointer; }
+.sidebar_header .close_icon:hover { opacity: 1; }
+
+.sidebar_body .cus_btn { width: 100%; }
+.sidebar_body .custom_input {margin: 0 0 18px; }
+
+/*.close_icon { float: right; margin-top: 5px; }*/
+/*.sidebar_add_hed { font-weight: 600; }*/
 .cus_input::placeholder { opacity: 0.7; background-color: #FFFFFF; }
 .cus_input {background-color: #FFFFFF; border: 2px solid #E3E3E3; border-radius: 10px; color: #565656; padding: 8px 12px;
  height: 38px; box-shadow: none; margin-bottom: 10px; font-size: 16px; line-height: 18px; font-weight: 600;margin-top: 20px; }
@@ -11,10 +22,10 @@
 .sidebar_add_btn_signin { height: 36px; border: none; text-decoration: none; border-radius: 5px; width: 100%; margin-top: 15px; }
 
 
-.date_icon_con .sidebar_add_ico { position: absolute; top: 10px; right: 14px; color: #d5af9c; }
+.date_icon_con .data_icon { position: absolute; top: 10px; right: 14px; color: #d5af9c; }
 .date_icon_con { position: relative;}
-.sidebar_btn_spa {display: flex; justify-content: space-between;}
-.sidebar_ad_btn_signin{ width:115px; padding:2px 8px; border-radius:5px; margin-top: 10px; line-height: 23px;}
+.sidebar_btn_spa { display: flex; justify-content: space-between; margin: 0 0 24px; }
+.sidebar_ad_btn_signin { width:115px; padding:2px 8px; border-radius:5px; line-height: 23px; }
   
 
 
@@ -40,14 +51,7 @@ text-transform:uppercase;width:100px;margin-top: 10px;}
 .text_light_black{color: #565656;}
 
 
-.sidebar_wap_con {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 70px 0 0;
-}
+
 
 
 /*

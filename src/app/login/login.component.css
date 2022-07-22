@@ -12,14 +12,9 @@ box-shadow: none; }
 .remember_pass { display: flex; align-items: center; margin: 0 0 6px; }
 .remember_pass span { color: #fff; font-size: 11px; font-weight: 600; line-height: 14px; margin: 0 0 0 5px; }
 
-/*.custom_input::placeholder { opacity: 0.7; background-color: #FFFFFF; }
-.custom_input { background-color: #FFFFFF; border: 1px solid #E3E3E3; border-radius: 10px; color: #565656; padding: 8px 12px; height: 38px; box-shadow: none; margin-bottom: 10px; font-size: 16px; line-height: 18px; font-weight: 400; }
-.custom_input:focus { border-color: rgb(104, 145, 162); outline: 0; -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(104 145 162); box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(104 145 162); }
+.login_con .custom_input { border: 1px solid #E3E3E3; box-shadow: none; }
+.login_con .custom_input:focus { border-color: rgb(104, 145, 162); outline: 0; box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(104 145 162); }
 
-.error_box { padding: 5px 12px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; font-size: 14px; line-height: 18px; }
-.error_txt { color: #a94442; background-color: #f2dede; border-color: #ebccd1; }*/
-
-/*tablet*/
 @media only screen and (min-width: 768px) and (max-width:  1024px) {
  }
 
