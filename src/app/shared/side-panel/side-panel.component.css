@@ -8,12 +8,13 @@
 .btn.sidebar_add_btn { background: #b7b3b3; text-decoration: none; border-radius: 10%; width: 105px; }
 .sidebar_add_input_btn {text-decoration: none; border: none; }
 .fsw_13 { font-size: 14px; font-weight: 600;}
-.sidebar_add_btn_signin { height: 36px; border: none; text-decoration: none; 
-    border-radius: 5px; width: 100%; margin-top: 15px; }
+.sidebar_add_btn_signin { height: 36px; border: none; text-decoration: none; border-radius: 5px; width: 100%; margin-top: 15px; }
 
 
-.sidebar_add_ico{margin-right:10px;margin-top:-37px;color:#d5af9c;float: right;} 
-.sidebar_ad_btn{ width: 110px; padding: 2px 8px; border-radius: 8px; color: #fff;  margin-top: 10px;}
+.date_icon_con .sidebar_add_ico { position: absolute; top: 10px; right: 14px; color: #d5af9c; }
+.date_icon_con { position: relative;}
+.sidebar_btn_spa {display: flex; justify-content: space-between;}
+.sidebar_ad_btn_signin{ width:115px; padding:2px 8px; border-radius:5px; margin-top: 10px; line-height: 23px;}
   
 
 
@@ -35,6 +36,8 @@ text-transform:uppercase;width:100px;margin-top: 10px;}
 .btn_org { background: #f74214; }
 .btn_green { background: #43c191; }
 .btn_light_gray { background: #c6cfd8; }
+.btn_text_white{color: #fff;}
+.text_light_black{color: #565656;}
 
 
 .sidebar_wap_con {
