@@ -1,13 +1,13 @@
 /*desktop*/
-.form_signin_con { background-image:url('/assets/image/rose-bg.jpg'); height:100%; position:absolute; background-size: cover ;width: 100%; background-position: center; }
+.form_signin_con { background-image: url('/assets/image/rose-bg.jpg'); height: 100%; position:absolute; background-size: cover ;width: 100%; background-position: center; }
 .form_signin_co { display: flex; justify-content:center; align-items: center; min-height: 100vh; height: 100%; }
 .form_signin_img{ width: 200px; height: auto; margin: 0 auto 0px; display: block; border-bottom: 1px solid #b2b2b2; padding-bottom: 0px; }
-.form-signin{ max-width: 340px;padding: 30px 30px;background: transparent;
-box-shadow: none; }
+.form-signin{ max-width: 340px;padding: 30px 30px; background: transparent; box-shadow: none; }
 .form_signin_txt{ font-size: 13px; font-weight: 300; margin: 0 0 12px; color: #fff; }
 .btn { background-color: rgb(66,194,146); padding: 0px; font-weight: 700; font-size: 14px; height: 36px; border: none; color: #fff; border-radius: 10px; width: 100%; }
 .form_signin_for{color: #fff;text-decoration: none;}
 .login_forgot_txt { font-size: 14px; line-height: 16px; font-weight: 400; color: #fff; text-decoration: none; }
+.form_signin_btn { width: 100%; background: #42c892; }
 
 .remember_pass { display: flex; align-items: center; margin: 0 0 6px; }
 .remember_pass span { color: #fff; font-size: 11px; font-weight: 600; line-height: 14px; margin: 0 0 0 5px; }
@@ -23,3 +23,6 @@ box-shadow: none; }
   .form-signin { padding: 30px 12px; }
   .login_con, .forgot_pass_con { max-width: 260px; }
  }
+
+
+ 
