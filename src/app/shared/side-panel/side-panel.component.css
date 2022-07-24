@@ -30,11 +30,10 @@
 .nav-pills .nav-item .nav-link.active { background-color:#d5af9c; color: #000; }
 .nav-pills .nav-item .nav-link { padding: 5px 21.8px; }
 .nav_list_item{ border:none; text-decoration: none; }
-.tab_con_row { background: #e4e9ed; border-top: 1px solid #fff;display: flex; align-items: center; justify-content: space-between; }
-.tc_status{margin-right: 20px;padding: 5px 16px;border-radius: 8px;min-width: 115px;display: inline-block;text-align: center;}
-.tc_row_title{margin-bottom: 0px;}
-.text_gray{color: #0000007a;}
-.tc_row_l{margin: 5px 10px;}
+.tab_con_row { background: #e4e9ed; border-top: 1px solid #fff;display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; }
+.tc_status{ font-size: 12px; line-height: 14px; padding: 6px 16px; border-radius: 8px; min-width: 115px; min-height: 28px; display: inline-block; text-align: center; }
+.text_gray{ color: #0000007a; }
+/*.tc_row_l{margin: 5px 10px;}*/
 .tab_icon{padding-right: 5px;}
 .btn_blu { background:#546ffc; }
 .btn_org { background: #f74214; }
@@ -42,7 +41,7 @@
 .btn_light_gray { background: #c6cfd8; }
 .btn_text_white{color: #fff;}
 .text_light_black{color: #565656;}
-
+.tc_row_title { font-size: 14px; line-height: 16px; font-weight: 600; margin: 0 0 4px; }
 
 
  
