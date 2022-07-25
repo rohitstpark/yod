@@ -56,8 +56,15 @@
 }
 
 @media screen and (min-width:300px) and (max-width: 767px){
-.task_info{ margin-top:15px;}
+.ca_card_box .task_info{ margin-top:15px;}
 .ca_sub_til { font-size: 11px; line-height: 14px; font-weight: 600;  }
 .task_count {  max-width: 65px;  height: 65px;}
+.prog_txt{font-size: 11px;}
+.pro_l{margin-right: 128px;}
+.pro_text_1, .pro_text_r { margin-left: 0px;margin-top: -22px;  }
+.task_info{font-size: 11px;}
+.pro_sp_t{font-size: 11px;}
+.icon_blue ,.icon_pink {margin-right:7px;}
+.task_info_txt{margin-right: 8px;}
 }
 
