@@ -22,8 +22,9 @@ button { font-family: inherit; font-size: inherit; line-height: inherit; }
 .menu_btn{ float: right;} 
 .openbtn { font-size: 30px; cursor: pointer; background-color: transparent; color: #fff; padding: 15px; border: none; margin-top: 8px;}
 button.openbtn {display: inline-block;}
-.mobile { height: 100vh;overflow: hidden; display:none;}
-.header_con {border-bottom: 1px solid #fff; }
+.logout-text{display: none;}
+.mobile { height: 100vh;overflow: hidden; display:none; /*display: block;*/}
+.header_con {border-bottom: 1px solid #fff;  }
 .mainMenu .nav li a:hover .nav-icons { opacity: 1;}
 .mainMenu .nav { height: 100%; width: 100%;}
 .mainMenu li { height: 11%;}

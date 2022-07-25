@@ -5,7 +5,7 @@
 .yod_b_con { display: flex; width: 100%; height: calc(100vh - 70px); }
 
 /*tablet_todo*/
-/*@media screen and (min-width:300px) and (max-width: 991px){
-  .main_container{margin: 0px 0px 0px 0px;}
-  }*/
+@media screen and (min-width:300px) and (max-width: 991px){
+ .yod_b_con_l { width: 0px; }
+  }
 
