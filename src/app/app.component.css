@@ -7,7 +7,8 @@
 /*tablet_todo*/
 @media screen and (min-width:300px) and (max-width: 991px){
  .yod_b_con_l { width: 0px; }
- .yod_t_con{display: none;
-    min-height: 0;}
+ /*.yod_t_con { display: none; min-height: 0; }*/
+ .yod_t_con { min-height: 60px; }
+ .yod_b_con_r { padding: 16px; }
   }
 

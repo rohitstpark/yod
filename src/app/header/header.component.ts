@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
  public respoosiveClass = false;
+ isMunuToggle: boolean = false;
 
  constructor() { }
 
@@ -18,5 +19,9 @@ export class HeaderComponent implements OnInit {
     this.respoosiveClass = !this.respoosiveClass;
     console.log(this.respoosiveClass);
   }
+
+  menuToggle() {
+    this.isMunuToggle = !this.isMunuToggle;
+}  
 
 }

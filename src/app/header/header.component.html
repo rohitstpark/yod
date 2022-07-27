@@ -8,7 +8,8 @@
         </a>
       </div>
       <div class="log-out">
-        <button class="openbtn" onclick="openNav()">☰</button>
+        <!-- <button class="openbtn" onclick="openNav()">☰</button> -->
+        <button class="openbtn" (click)="menuToggle()">☰</button>
         <a href="#">
           <span class="logout-text">
             Log Out
@@ -24,91 +25,49 @@
 
 <!-- tablet/moblie -->
 
-<div class="mobile bg_black ">
-  <div class="mainContainer">
-    <header>
-      <div class="header_con">
-        <div class="header_site_logo bg_pink ">
-          <a href="#" class="logo">
-            <img class="img-responsive" src="/assets/image/logo-200x73.png"> 
-          </a>
-        </div>
-        <div class="log-out">
-          <button class="openbtn" onclick="openNav()">☰</button>
-          <a href="#">
-            <span class="logout-text">
-              Log Out
-              <span class="log_out_ic">
-                <i class="fa-solid fa-right-from-bracket"></i>
-              </span>
-            </span>
-          </a>
-        </div> 
+<div class="mob_menu" [ngClass]="{'show_menu': isMunuToggle}">
+  <div class="mob_menu_container">
+    <div class="mob_menu_header">
+      <div class="mmh_l">
+        <a href="#" class="img-fluid bg_pink">
+          <img class="mmh_logo" src="/assets/image/logo-200x73.png"> 
+        </a>
       </div>
-      <nav class="mainMenu">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <ul class="nav">
-          <li id="summary" class="active">
-            <a class="menu-clickable">
-              <!-- <img class="nav-icons" src="/assets/image/summary.png" alt="Summary"> -->
-              <p class="pt-2">Summary</p>
-            </a>
-          </li>   
-          <li id="guesttracking" class="">
-            <a class="menu-clickable ">
-                <!-- <img class="nav-icons" src="/assets/image/guest_tracking.png" alt="Summary"> -->
-                <p class="pt-2">Guests</p>
-            </a>
-          </li> 
-          <li id="todolist" class="">
-            <a class="menu-clickable" >
-              <!-- <img class="nav-icons" src="/assets/image/toDo_list.png" alt="Summary">  -->   
-              <p class="pt-2">To Do List</p>
-            </a>
-          </li> 
-          <li id="budgettracker" class="">
-            <a class="menu-clickable" >
-              <!-- <img class="nav-icons" src="/assets/image/budget_tracking.png" alt="Summary"> -->
-              <p class="pt-2">Budget</p>
-             </a>
-          </li> 
-          <li id="researchtracker" class="">
-            <a class="menu-clickable">
-             <!--  <img class="nav-icons" src="/assets/image/research_tracker.png" alt="Summary"> -->
-              <p class="pt-2">Research </p>
-            </a>
-          </li>       
-          <li id="runsheet" class="">
-            <a class="menu-clickable" >
-             <!--  <img class="nav-icons" src="/assets/image/run_sheet.png" alt="Summary"> -->
-              <p class="pt-2">Run Sheet</p>
-            </a>
-          </li> 
-          <li id="musicplaylist" class="">
-            <a class="menu-clickable">
-              <!-- <img class="nav-icons" src="/assets/image/music_playlist.png" alt="Summary"> -->
-              <p class="pt-2">Music</p>
-            </a>
-          </li>  
-          <li id="seatingplan" class="">
-            <a class="menu-clickable">
-              <!-- <img class="nav-icons" src="/assets/image/seating_plan.png" alt="Summary"> -->
-              <p class="pt-2">Seating</p>
-            </a>
-          </li>
-          <li id="#" class="">
-            <a href="menu-clickable">
-              <p class="pt-2">Log Out
-                <span class="log_out_ic">
-                <i class="fas fa-sign-out-alt"></i>
-                 </span>
-              </p>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="container">
+      <div class="mmh_r">
+        <span class="hamber_icon" (click)="menuToggle()">☰</span>
+        <span class="close_menu_icon" (click)="menuToggle()">X</span>
+      </div> 
+    </div>
+    <div class="mob_menu_body">
+      <ul class="menu_item_list">
+        <li id="summary" class="active">
+          <a class="menu_item">Summary</a>
+        </li>  
+        <li id="guesttracking">
+          <a class="menu_item">Guests</a>
+        </li>
+        <li id="todolist">
+          <a class="menu_item">To Do List</a>
+        </li>
+        <li id="budgettracker">
+          <a class="menu_item">Budget</a>
+        </li>
+        <li id="researchtracker">
+          <a class="menu_item">Research </a>
+        </li>      
+        <li id="runsheet">
+          <a class="menu_item">Run Sheet</a>
+        </li>
+        <li id="musicplaylist">
+          <a class="menu_item">Music</a>
+        </li> 
+        <li id="seatingplan">
+          <a class="menu_item">Seating</a>
+        </li>
+        <li>
+          <a href="#" class="menu_item">Log Out</a>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
