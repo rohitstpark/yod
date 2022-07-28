@@ -20,7 +20,6 @@
 .selected_task { background: #546ffc; color: #fff; }
 .select_task { display: flex; justify-content: space-between; margin: 0 0 24px; }
 
-  
 /*pannel-3*/
 .fsw_11 { font-size: 11px; font-weight:600;}
 .sidepannel_bar_3 .sidebar_header {margin-bottom: 12px;}
