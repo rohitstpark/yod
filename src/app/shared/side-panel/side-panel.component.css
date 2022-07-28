@@ -16,33 +16,56 @@
 /*pannel-2*/
 .date_icon_con .data_icon { position: absolute; top: 10px; right: 14px; color: #d5af9c; }
 .date_icon_con { position: relative; }
-.sidebar_add_input_btn {text-decoration: none; border: none; width:115px; padding: 2px 8px; border-radius: 5px; line-height: 23px;}
-.sidebar_btn { display: flex; justify-content: space-between; margin: 0 0 24px; }
+.unselect_task { font-size: 14px; line-height: 18px; font-weight: 600; text-decoration: none; border: none; width: 31%; padding: 5px 8px; border-radius: 5px; text-align: center; background: #c6cfd8; color: #565656; }
+.selected_task { background: #546ffc; color: #fff; }
+.select_task { display: flex; justify-content: space-between; margin: 0 0 24px; }
 
   
 /*pannel-3*/
 .fsw_11 { font-size: 11px; font-weight:600;}
 .sidepannel_bar_3 .sidebar_header {margin-bottom: 12px;}
-.cus_btn_m { border: none; text-decoration: none; border-radius: 8px; padding: 4px; width: 85px; margin-bottom: 12px; line-height: 18px; }
-.btn_icon { padding: 2px 5px 2px 2px; font-size: 11px;  font-size: 11px;}
+.add_task_sp { display: inline-block; border-radius: 8px; padding: 4px 12px; margin-bottom: 18px; font-size: 12px; line-height: 16px; background: #5b6fb5; color: #fff; cursor: pointer; }
+.btn_icon { padding: 2px 5px 2px 2px; font-size: 11px; }
 .task_status_con { margin: 0 -20px;}
-.nav_list_con { background:#e4e9ed; }
-.nav-pills .nav-item .nav-link.active { background-color:#d5af9c; color: #000; }
-.nav-pills .nav-item .nav-link { padding: 5px 21.8px; }
-.nav_list_item{ border:none; text-decoration: none; }
-.tab_con_row { background: #e4e9ed; border-top: 1px solid #fff;display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; }
-.tc_status{ font-size: 12px; line-height: 14px; padding: 6px 16px; border-radius: 8px; min-width: 115px; min-height: 28px; display: inline-block; text-align: center; }
-.text_gray{ color: #0000007a; }
-/*.tc_row_l{margin: 5px 10px;}*/
-.tab_icon{padding-right: 5px;}
+.nav_list_con { background: #e4e9ed; justify-content: space-between; flex-wrap: inherit; border-radius: 0px; }
+.nav-pills .nav-item .nav-link { padding: 5px 14px; height: 32px; }
+.nav-pills .nav-item .nav-link.active { background-color:#d5af9c; color: #000; border-radius: 0px; }
+.nav_list_item { border:none; text-decoration: none; }
+
+.task_row { background: #e4e9ed; border-top: 1px solid #fff;display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; }
+.task_row .task_row_l .tr_title { font-size: 14px; line-height: 16px; font-weight: 600; margin: 0 0 4px; }
+.task_row .task_row_l .tr_date { font-size: 14px; line-height: 16px; font-weight: 600; color: #0000007a; }
+.task_row .task_row_l .tr_date .tr_date_icon { padding-right: 5px; color: #d5af9c; }
+
+.task_row .task_row_r .tc_status { font-size: 12px; line-height: 14px; font-weight: 600; padding: 6px 16px; border-radius: 8px; min-width: 115px; min-height: 28px; display: inline-block; text-align: center; color: #fff; }
+
 .btn_blu { background:#546ffc; }
 .btn_org { background: #f74214; }
 .btn_green { background: #43c191; }
 .btn_light_gray { background: #c6cfd8; }
-.btn_text_white{color: #fff;}
-.text_light_black{color: #565656;}
-.tc_row_title { font-size: 14px; line-height: 16px; font-weight: 600; margin: 0 0 4px; }
+.btn_text_white{ color: #fff; }
+.text_light_black{ color: #565656; }
 
 
- 
 
+@media screen and (min-width: 300px) and (max-width: 1023px) { 
+ .sidebar_wap_con { padding: 60px 0 0; }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+	.sidebar_body { max-width: 430px; padding: 16px; }
+	.btn_h_40 { min-height: 34px; }
+	.sidebar_body .add_task_sp { font-weight: 500; }
+	.task_row .task_row_r .tc_status { font-weight: 500; padding: 5px 16px; min-width: 96px; min-height: 26px; }
+	.task_row .task_row_l .tr_date { font-size: 12px; line-height: 14px; }
+}
+
+@media screen and (max-width: 360px) {
+	.nav-pills .nav-item .nav-link { height: 28px; font-size: 12px; }
+	.task_row .task_row_r .tc_status { padding: 5px 10px; }
+	.task_row .task_row_l .tr_title { font-size: 12px; line-height: 14px; }
+}

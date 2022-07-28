@@ -25,10 +25,10 @@
           <input name="name" type="date" id="#" class="form-control custom_input" placeholder="Add date here">
           <!-- <i class="fas fa-calendar-alt data_icon"></i>  -->
         </div> 
-        <div class="sidebar_btn">
-          <button class="sidebar_add_input_btn fsw_14 btn_blu txt_w">Outstanding</button>  
-          <button class="sidebar_add_input_btn fsw_14 bg_lig_gra txt_lig_b">completed</button>  
-          <button class="sidebar_add_input_btn fsw_14 bg_lig_gra txt_lig_b">Urgent</button>
+        <div class="select_task">
+          <span class="unselect_task selected_task">Outstanding</span>
+          <span class="unselect_task">completed</span>
+          <span class="unselect_task">Urgent</span>
         </div>
         <button name="submit" class="cus_btn btn_pink btn_h_40" type="submit">ADD TASK</button>
       </form>
@@ -40,10 +40,10 @@
         <p class="sh_title">Bride and Goom: Tasks</p>
         <i class="far fa-times-circle close_icon" (click)="actionEvent()"></i>
       </div>
-      <button name="submit" class="cus_btn_m fsw_11 btn_blu txt_w" type="submit">
+      <span class="add_task_sp">
         <i class="fas fa-plus btn_icon"></i>
         <span>ADD TASK</span>
-      </button>
+      </span>
       <div class="task_status_con">
         <ul class="nav nav-pills nav_list_con  " id="pills-tab" role="tablist">
           <li class="nav-item nav_list_item " role="presentation">
@@ -61,155 +61,155 @@
         </ul>
         <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="pills-All-Task" role="tabpanel" aria-labelledby="pills-All-Task-tab">
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Brides accessories purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Brides accessories purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status bg_pink txt_w">Outstanding</span>
+              <div class="task_row_r">
+                <span class="tc_status bg_pink">Outstanding</span>
               </div>
             </div>
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Wedding dress purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Wedding dress purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status bg_blue txt_w">Completed</span>
+              <div class="task_row_r">
+                <span class="tc_status bg_blue">Completed</span>
               </div>
             </div>
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Grooms accessories purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Grooms accessories purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status btn_org txt_w">Urgent</span>
+              <div class="task_row_r">
+                <span class="tc_status btn_org">Urgent</span>
               </div>
             </div>
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Brides accessories purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Brides accessories purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status bg_pink txt_w">Outstanding</span>
+              <div class="task_row_r">
+                <span class="tc_status bg_pink">Outstanding</span>
               </div>
             </div>
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Weddind dress purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Weddind dress purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status btn_green txt_w">Completed</span>
+              <div class="task_row_r">
+                <span class="tc_status btn_green">Completed</span>
               </div>
             </div>
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Grooms accessories purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Grooms accessories purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status btn_org txt_w">Urgent</span>
+              <div class="task_row_r">
+                <span class="tc_status btn_org">Urgent</span>
               </div>
             </div>
           </div>
 
           <div class="tab-pane fade" id="pills-Outstanding" role="tabpanel" aria-labelledby="pills-Outstanding-tab">
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Brides accessories purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Brides accessories purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status bg_pink txt_w">Outstanding</span>
+              <div class="task_row_r">
+                <span class="tc_status bg_pink">Outstanding</span>
               </div>
             </div>
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Brides accessories purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Brides accessories purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status bg_pink txt_w">Outstanding</span>
+              <div class="task_row_r">
+                <span class="tc_status bg_pink">Outstanding</span>
               </div>
             </div>
           </div>
           <div class="tab-pane fade" id="pills-Urgent" role="tabpanel" aria-labelledby="pills-Urgent-tab">
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Grooms accessories purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Grooms accessories purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status btn_org txt_w">Urgent</span>
+              <div class="task_row_r">
+                <span class="tc_status btn_org">Urgent</span>
               </div>
             </div>
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Grooms accessories purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Grooms accessories purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status btn_org txt_w">Urgent</span>
+              <div class="task_row_r">
+                <span class="tc_status btn_org">Urgent</span>
               </div>
             </div>
           </div> 
           <div class="tab-pane fade" id="pills-Completed" role="tabpanel" aria-labelledby="pills-Completed-tab">
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Wedding dress purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Wedding dress purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status bg_blue txt_w">Completed</span>
+              <div class="task_row_r">
+                <span class="tc_status bg_blue">Completed</span>
               </div>
             </div>
-            <div class="tab_con_row">
-              <div class="tc_row_l fsw_14">
-                <p class="tc_row_title">Weddind dress purchased</p>
-                <div class="tab_decs_spn">
-                  <i class="fas fa-calendar-alt txt_pink tab_icon"></i>
-                  <span class="text_gray">13/06/2022</span>
+            <div class="task_row">
+              <div class="task_row_l">
+                <p class="tr_title">Weddind dress purchased</p>
+                <div class="tr_date">
+                  <i class="fas fa-calendar-alt tr_date_icon"></i>
+                  <span class="tr_date_txt">13/06/2022</span>
                 </div>
               </div>
-              <div class="tc_row_r fsw_14">
-                <span class="tc_status btn_green txt_w">Completed</span>
+              <div class="task_row_r">
+                <span class="tc_status btn_green">Completed</span>
               </div>
             </div>
           </div>

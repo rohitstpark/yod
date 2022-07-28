@@ -10,11 +10,11 @@
 .pro_sp_t, .pro_sp_b { font-size: 14px; line-height: 16px; font-weight: 500; margin: 0; display: grid; }
 .pro_sp_t { margin-bottom: 0px; }
 .pro_sp_b { color: #818181; }	
-.icon_blue{ color: #586fb2;margin-right: 10px;}
-.icon_pink{ color: #d5af9c;margin-right: 10px;}
+.icon_blue { color: #586fb2;margin-right: 10px;}
+.icon_pink { color: #d5af9c;margin-right: 10px;}
 .pro_text_1, .pro_text_r { margin-left: 32px; display: flex; align-items: center; }
 .pro_list_con .progress { height: 10px; background-color: #ffede3; }
-.ca_rows {border-radius: 8px; box-shadow: 2px 0px 12px 0px rgb(0 0 0 / 15%); overflow: hidden;}
+.ca_rows { border-radius: 8px; box-shadow: 2px 0px 12px 0px rgb(0 0 0 / 15%); overflow: hidden;}
 
 /*category_left*/
 .tab_title_c { font-size: 18px; line-height: 20px; font-weight: 600; margin: 24px 0 14px; }
@@ -51,20 +51,39 @@
 .pro_list_con .progress-bar { background-color: #5b6fb5; }
 
 
-@media screen and (min-width:767px) and (max-width: 991px){
-.ca_card_box .task_info{ margin-top: 20px;}
+@media screen and (min-width:767px) and (max-width: 1023px) {
+    .ca_card_box .task_info{ margin-top: 20px;}
 }
 
-@media screen and (min-width:300px) and (max-width: 767px){
-.ca_card_box .task_info{ margin-top:15px;}
-.ca_sub_til { font-size: 11px; line-height: 14px; font-weight: 600;  }
-.task_count {  max-width: 65px;  height: 65px;}
-.prog_txt{font-size: 11px;}
-.pro_l{margin-right: 128px;}
-.pro_text_1, .pro_text_r { margin-left: 0px;margin-top: -22px;  }
-.task_info{font-size: 11px;}
-.pro_sp_t{font-size: 11px;}
-.icon_blue ,.icon_pink {margin-right:7px;}
-.task_info_txt{margin-right: 8px;}
+@media screen and (min-width:300px) and (max-width: 767px) {
+    .ca_card_box .task_info{ margin-top:15px;}
+    .ca_sub_til { font-size: 11px; line-height: 14px; font-weight: 600;  }
+    .task_count { max-width: 52px; height: 52px; margin: 0 10px 0 0; }
+    .prog_txt{font-size: 11px;}
+    .pro_l{margin-right: 0px;}
+    .pro_text_1, .pro_text_r { margin-left: 0px; margin-top: 0px;  }
+    .task_info{font-size: 11px;}
+    .pro_sp_t{font-size: 11px;}
+    .icon_blue ,.icon_pink {margin-right:7px;}
+    .task_info_txt{margin-right: 8px;}
+
+    .category_list_con { padding: 0 0 14px; }
+    .tab_title { font-size: 20px; line-height: 24px; }
+    .cusom_btn { font-size: 10px; padding: 5px 12px; min-width: 90px; height: 28px; }
+
+    .btn_h_40 { min-height: 32px; }
+    .cus_btn { font-size: 12px; line-height: 14px; padding: 8px 12px; }
+    .add_ic_l { font-size: 12px; }
+    .ca_card_box { padding: 12px; }
+    .task_info .cusom_btn { margin-left: 12px; }
+    .cat_icon { margin-left: 12px; }
+    .pro_list_con .row .col-xs-5 { width: 41.6%; }
+    .pro_list_con .row .col-xs-6 { width: 50%; }
+    .pro_list_con .row .col-xs-7 { width: 58.3%; }
 }
 
+@media screen and (max-width: 360px) {
+    .prog_txt { font-size: 10px; margin: 0 0 6px; }
+    .pro_sp_t, .pro_sp_b { font-size: 10px; line-height: 14px; font-weight: 600; }
+    .ca_til { font-size: 14px; line-height: 16px; }
+}
